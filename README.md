@@ -9,4 +9,8 @@
   <li>Terminal</li>
 </ul>
 <h2>Use Of</h2>
-<img src="https://i.hizliresim.com/Z595QA.png">
+<h3>Linux & Mac (Bash)</h3>
+<span>$ python3 encBit.py</span>
+<hr>
+<h3>Windows (Cmc/MsDos)(Bash)</h3>
+<span>encBit.py</span>or<span>python encBit.py</span>
