@@ -14,3 +14,5 @@
 <hr>
 <h3>Windows (Cmd/MsDos)(Bash)</h3>
 <span>encBit.py</span>or<span>python encBit.py</span>
+<h2>Before</h2>
+<span>Encrypted text will be saved to file named encF</span>
