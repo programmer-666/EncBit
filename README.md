@@ -16,3 +16,5 @@
 <span>encBit.py</span>or<span>python encBit.py</span>
 <h2>Before</h2>
 <span>Encrypted text will be saved to file named <b>encF</b></span>
+<h2>Attention</h2>
+</b>Key length should not be greater than 255</b>
