@@ -8,3 +8,5 @@
   <li>Linux , Mac or Windows Computer</li>
   <li>Terminal</li>
 </ul>
+<h2>Use Of</h2>
+<img src="https://i.hizliresim.com/Z595QA.png">
