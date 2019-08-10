@@ -12,5 +12,5 @@
 <h3>Linux & Mac (Bash)</h3>
 <span>$ python3 encBit.py</span>
 <hr>
-<h3>Windows (Cmc/MsDos)(Bash)</h3>
+<h3>Windows (Cmd/MsDos)(Bash)</h3>
 <span>encBit.py</span>or<span>python encBit.py</span>
