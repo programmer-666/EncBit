@@ -6,7 +6,7 @@ def TextToAscii(Text):
     for i in Text.upper():
         lst.append(ord(i))
     return lst
-def xor(BitList,Key):
+def encryption(BitList,Key):
     lst = []
     for i in BitList:
         lst.append(i^Key)
@@ -23,7 +23,7 @@ def WriteAFile(fname,format,content):
     File.close()
 #functions
 Ascii = TextToAscii(text)
-CrAscii = xor(Ascii,ky)
+CrAscii = encryption(Ascii,ky)
 Hash = AsciiToText(CrAscii)
 print(Hash)
 WriteAFile("encF","txt",Hash)
