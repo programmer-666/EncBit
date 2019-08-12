@@ -12,7 +12,7 @@
 <h3>Linux & Mac (Bash)</h3>
 <span>$ python3 encBit.py</span>
 <hr>
-<h3>Windows (Cmd/MsDos)(Bash)</h3>
+<h3>Windows (Cmd/MsDos)</h3>
 <span>C:\encBit.py</span> or <span>C:\python encBit.py</span>
 <h2>Before</h2>
 <span>Encrypted text will be saved to file named <b>encF</b></span>
