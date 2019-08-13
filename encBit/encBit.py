@@ -1,5 +1,8 @@
-text = input("Enter Text : ")
-ky = abs(int(input("Enter Key (Max255Min1) : ")))
+import sys
+text = sys.argv[1]
+ky = abs(int(sys.argv[2]))
+filename = sys.argv[3]
+fileformat = sys.argv[4]
 #variable
 def TextToAscii(Text):
     lst = []
@@ -26,4 +29,4 @@ Ascii = TextToAscii(text)
 CrAscii = encryption(Ascii,ky)
 Hash = AsciiToText(CrAscii)
 print(Hash)
-WriteAFile("encF","txt",Hash)
+WriteAFile(filename,fileformat,Hash)
