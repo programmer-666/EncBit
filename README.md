@@ -10,10 +10,10 @@
 </ul>
 <h2>Use Of</h2>
 <h3>Linux & Mac (Bash)</h3>
-<span>$ python3 encBit.py</span>
+<span>$ python3 encBit.py <Text> <Key> <File Name> <File Format> </span>
 <hr>
 <h3>Windows (Cmd/MsDos)</h3>
-<span>C:\encBit.py</span> or <span>C:\python encBit.py</span>
+<span>C:\encBit.py <Text> <Key> <File Name> <File Format></span> or <span>C:\python encBit.py <Text> <Key> <File Name> <File Format></span>
 <h2>Before</h2>
 <span>Encrypted text will be saved to file named <b>encF</b></span>
 <h2>Attention</h2>
