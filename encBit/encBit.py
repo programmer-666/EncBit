@@ -10,6 +10,8 @@ if sw == "y":
 	fname = input("File Name:")
 	encLib.WriteAFile(fname,"txt",Hash)
 elif sw == "n":
-	print(Hash)
+	for i in Hash:
+		print(i,end="")
 else:
 	pass
+print("\n")
