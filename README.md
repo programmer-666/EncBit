@@ -2,6 +2,11 @@
 <p>
   Bit-level encryption and decryption programs with Python
 </p>
+<h2>Programs</h2>
+<ul>
+  <li>encBit -> Text encrypter</li>
+  <li>encfBit -> File encrypter</li>
+</ul>
 <h2>You Need:</h2>
 <ul>
   <li>Python 3</li>
