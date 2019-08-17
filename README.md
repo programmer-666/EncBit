@@ -16,11 +16,11 @@
 <h2>Use Of</h2>
 <h3>Linux & Mac (Bash)</h3>
 <span>$ python3 encBit.py [Text] [KeyMax255] </span><br>
-<span>$ python3 encfBit.py [FileName] [KeyMax255] </span>
+<span>$ python3 encfBit.py [FileName.format] [KeyMax255] </span>
 <hr>
 <h3>Windows (Cmd/MsDos)</h3>
 <span>C:\encBit.py [Text] [KeyMax255] </span> or <span>C:\python encBit.py [Text] [KeyMax255]</span><br>
-<span>C:\encfBit.py [FileName] [KeyMax255] </span> or <span>C:\python encfBit.py [FileName] [KeyMax255]</span>
+<span>C:\encfBit.py [FileName.format] [KeyMax255] </span> or <span>C:\python encfBit.py [FileName.format] [KeyMax255]</span>
 <h2>Before</h2>
 <h3>encBit.py</h3>
 <span>Encrypted text will be saved to file named <b>encF</b></span>

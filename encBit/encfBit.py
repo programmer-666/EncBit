@@ -5,7 +5,7 @@ fname = (sys.argv[1])
 key = abs(int((sys.argv[2])))
 #Terminal inputs
 os.chdir("Texts/")
-file = open(fname+".txt","r")
+file = open(fname,"r")
 fCont = file.read()
 file.close()
 #file read
