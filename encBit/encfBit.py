@@ -14,7 +14,7 @@ crp = encLib.encryption(ascii,key)
 hash = encLib.AsciiToText(crp)
 #encrypt
 os.chdir("../ENCTexts/")
-wf = open("ENC"+fname+".txt","w")
+wf = open("ENC"+fname[0:3]+".txt","w")
 for j in hash:
     wf.write(j)
 wf.close()
