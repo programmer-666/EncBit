@@ -14,7 +14,7 @@
   <li>Terminal</li>
 </ul>
 <h2>Use Of</h2>
-<h3>Linux & Mac (Bash)</h3>
+<h3>Linux & Mac (Bash)[Advice]</h3>
 <span>$ python3 encBit.py [Text] [KeyMax255] </span><br>
 <span>$ python3 encfBit.py [FileName.format] [KeyMax255] </span>
 <hr>
@@ -34,4 +34,5 @@
 <p>C:\Users\USER\AppData\Local\Programs\Python\PythonXX-XX\Lib</p>
 <p>Copy encLib.py to Python Lib's</p>
 <h2>Attention</h2>
-</b>Key length should not be greater than 255</b>
+<b>Key length should not be greater than 255</b>
+<b><i><u>It may give error while working on windows! Our advice Linux</u></i></b>
