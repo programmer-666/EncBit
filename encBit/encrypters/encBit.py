@@ -8,9 +8,9 @@ CrAscii = encLib.encryption(Ascii,ky)
 Hash = encLib.AsciiToText(CrAscii)
 sw = input("Save a file(y/n):")
 if sw == "y":
-	os.chdir("ENCTexts/")
-	fname = input("File Name:")
-	encLib.WriteAFile("ENC"+fname,"txt",Hash)
+	os.chdir("../ENCTexts/")
+	fname = input("File Name(x.txt):")
+	encLib.WriteAFile("ENC"+fname,Hash)
 elif sw == "n":
 	for i in Hash:
 		print(i,end="")

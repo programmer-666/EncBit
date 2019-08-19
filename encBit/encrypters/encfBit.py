@@ -4,7 +4,7 @@ import os
 fname = (sys.argv[1])
 key = abs(int((sys.argv[2])))
 #Terminal inputs
-os.chdir("Texts/")
+os.chdir("../Texts/")
 file = open(fname,"r")
 fCont = file.read()
 file.close()
@@ -14,7 +14,7 @@ crp = encLib.encryption(ascii,key)
 hash = encLib.AsciiToText(crp)
 #encrypt
 os.chdir("../ENCTexts/")
-wf = open("ENC"+fname[0:3]+".txt","w")
+wf = open("ENC"+fname[0:3]+".data","w")
 for j in hash:
     wf.write(j)
 wf.close()
