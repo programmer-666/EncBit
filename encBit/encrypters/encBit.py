@@ -1,5 +1,5 @@
-import encLib
 import os
+import encLib
 text = input("Text:")
 ky = abs(int(input("Key (Max255Min1):")))
 #variable
