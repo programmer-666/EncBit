@@ -2,10 +2,9 @@ import os
 import encLib
 text = input("Text:")
 ky = abs(int(input("Key (Max255Min1):")))
+encrypter = encLib.eLib(ky)
 #variable
-Ascii = encLib.TextToAscii(text)
-CrAscii = encLib.encryption(Ascii,ky)
-Hash = encLib.AsciiToText(CrAscii)
+Hash = encrypter.AsciiToText(encrypter.encryption(encrypter.TextToAscii(text)))
 sw = input("Save a file(y/n):")
 if sw == "y":
 	os.chdir("../ENCTexts/")
