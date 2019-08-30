@@ -15,7 +15,7 @@
 </ul>
 <h2>Use Of</h2>
 <h3>Bash</h3>
-<span>$ python3 encBit.py [Text] [KeyMax255] </span><br>
+<span>$ python3 encBit.py </span><br>
 <span>$ python3 encfBit.py [FileName.format] [KeyMax255] </span>
 <h2>Before</h2>
 <h3>encBit.py</h3>
