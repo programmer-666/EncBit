@@ -28,7 +28,6 @@
 <li>$ python3 decfBit.py [FileName.format] [KeyMax255] </li>
 </ul>
 <h2>Before</h2>
-<h3>encBit.py</h3>
 <span>Encrypted text saved ENCTexts/</span><br>
 <span>Decrypted text saved Texts/</span>
 <h2>Attention</h2>
