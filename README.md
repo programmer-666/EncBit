@@ -16,7 +16,6 @@
   <li>Terminal [Advice Bash Shell]</li>
 </ul>
 <h2>Use Of</h2>
-<h3>Bash</h3>
 <h2>Encryption</h2>
 <ul>
 <li>$ python3 encBit.py </li>
@@ -30,6 +29,8 @@
 <h2>Before</h2>
 <span>Encrypted text saved ENCTexts/</span><br>
 <span>Decrypted text saved Texts/</span>
+<h3>Setup</h3>
+<p>...</p>
 <h2>Attention</h2>
 <b>Key length should not be greater than 255</b><br>
 <b><i><u>It may give error while working on windows! Our advice Linux</u></i></b>
