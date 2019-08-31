@@ -6,23 +6,31 @@
 <ul>
   <li>encBit -> Text encrypter</li>
   <li>encfBit -> File encrypter</li>
+  <li>decBit -> Text decrypter</li>
+  <li>decfBit -> File decrypter</li>
 </ul>
 <h2>You Need:</h2>
 <ul>
   <li>Python 3</li>
   <li>Linux or Mac [Advice Linux]</li>
-  <li>Terminal</li>
+  <li>Terminal [Advice Bash Shell]</li>
 </ul>
 <h2>Use Of</h2>
 <h3>Bash</h3>
-<span>$ python3 encBit.py </span><br>
-<span>$ python3 encfBit.py [FileName.format] [KeyMax255] </span>
+<h2>Encryption</h2>
+<ul>
+<li>$ python3 encBit.py </li>
+<li>$ python3 encfBit.py [FileName.format] [KeyMax255] </li>
+</ul>
+<h2>Decryption</h2>
+<ul>
+<li>$ python3 decBit.py </li>
+<li>$ python3 decfBit.py [FileName.format] [KeyMax255] </li>
+</ul>
 <h2>Before</h2>
 <h3>encBit.py</h3>
-<span>Encrypted text will be saved to file named <b>encF</b></span>
-<h2>!Lib Configration!</h2>
-<p>$ mv encLib.py /usr/lib/python3/dist-packages/</p>
-<p>Copy encLib.py to dist-packages</p>
+<span>Encrypted text saved ENCTexts/</span><br>
+<span>Decrypted text saved Texts/</span>
 <h2>Attention</h2>
 <b>Key length should not be greater than 255</b><br>
 <b><i><u>It may give error while working on windows! Our advice Linux</u></i></b>
