@@ -29,7 +29,7 @@
 <h2>Before</h2>
 <span>Encrypted text saved ENCTexts/</span><br>
 <span>Decrypted text saved Texts/</span>
-<h3>Setup</h3>
+<h2>Setup</h2>
 <p>...</p>
 <h2>Attention</h2>
 <b>Key length should not be greater than 255</b><br>
